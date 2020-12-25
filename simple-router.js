@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const ejs = require('ejs');
-const qs = require('qs');
+const qs = require('querystring');
 
 // Simple router?
 class App {
