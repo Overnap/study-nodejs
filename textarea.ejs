@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <%- include("./textarea.ejs") %> 
+    <form action="/htmltest" method="post" accept-charset="utf-8">
+        <input type="textarea" name="myData">
+        <button type="submit">submit</button>
+    </form>
 </body>
 </html>
